@@ -1,4 +1,4 @@
-# A Split View PhoneGap template using Vue.js and Framework7
+# A Split View / Panel PhoneGap template using Vue.js and Framework7
 
 Vue.js, Framework7, and Cordova / PhoneGap Template with Babel, Webpack and Hot Reloading
 

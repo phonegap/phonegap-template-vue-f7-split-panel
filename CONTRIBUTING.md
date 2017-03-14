@@ -1,6 +1,6 @@
 ## Contributing
 
-Thank you for your interest in contributing to the Vue.js + Framework7 Blank Template.
+Thank you for your interest in contributing to the Vue.js + Framework7 Split View / Panel Template.
 
 #### Issues
 
@@ -18,5 +18,5 @@ All contributions (feature or bug fix) should start with an issue first.
 - Open a [Pull Request][pull-request]
 
 
-[issue-tracker]: https://github.com/phonegap/phonegap-template-vue-f7-blank/issues
-[pull-request]: https://github.com/phonegap/phonegap-template-vue-f7-blank/pulls
+[issue-tracker]: https://github.com/phonegap/phonegap-template-vue-f7-split-panel/issues
+[pull-request]: https://github.com/phonegap/phonegap-template-vue-f7-split-panel/pulls
