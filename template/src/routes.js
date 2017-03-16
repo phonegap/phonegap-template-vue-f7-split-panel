@@ -5,14 +5,14 @@ import Services from './components/pages/Services';
 export default [
   {
     path: '/home/',
-    component: Home,
+    component: Home
   },
   {
     path: '/about/',
-    component: About,
+    component: About
   },
   {
     path: '/services/',
-    component: Services,
-  },
+    component: Services
+  }
 ];

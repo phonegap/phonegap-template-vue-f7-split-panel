@@ -29,10 +29,10 @@
 <script>
   export default {
     name: 'Home',
-    data() {
+    data () {
       return {
-        title: 'Home Page',
+        title: 'Home Page'
       };
-    },
+    }
   };
 </script>

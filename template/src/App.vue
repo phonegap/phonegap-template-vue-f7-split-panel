@@ -38,16 +38,16 @@
     name: 'App',
     components: {
       'left-panel-view': LeftPanel,
-      'home-page': Home,
+      'home-page': Home
     },
     computed: {
-      isiOS() {
+      isiOS () {
         return window.isiOS;
       },
-      platformClass() {
+      platformClass () {
         return window.isiOS ? 'ios' : 'material';
-      },
-    },
+      }
+    }
   };
 </script>
 

@@ -22,10 +22,10 @@
 <script>
   export default {
     name: 'About',
-    data() {
+    data () {
       return {
-        title: 'About Page',
+        title: 'About Page'
       };
-    },
+    }
   };
 </script>

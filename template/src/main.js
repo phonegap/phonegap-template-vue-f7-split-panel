@@ -54,12 +54,12 @@ new Vue({ // eslint-disable-line no-new
     animateNavBackIcon: window.isiOS,
     pushState: true,
     pushStateNoAnimation: true,
-    panelLeftBreakpoint: 960,
+    panelLeftBreakpoint: 960
   },
   // Register App Component
   components: {
-    app: App,
-  },
+    app: App
+  }
 });
 
 // Ye olde Device Ready

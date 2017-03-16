@@ -33,12 +33,12 @@
 <script>
   export default {
     name: 'LeftPanel',
-    data() {
+    data () {
       return {
         isMaterial: window.isMaterial,
-        isiOS: window.isiOS,
+        isiOS: window.isiOS
       };
-    },
+    }
   };
 </script>
 
