@@ -2,6 +2,9 @@
 
 Vue.js, Framework7, and Cordova / PhoneGap Template with Babel, Webpack and Hot Reloading
 
+![example image iOS](https://github.com/phonegap/phonegap-template-vue-f7-split-panel/raw/master/example-split-iOS.png)
+![example image android](https://github.com/phonegap/phonegap-template-vue-f7-split-panel/raw/master/example-split-android.png)
+
 ## Getting Started
 
 ### Prerequisites
