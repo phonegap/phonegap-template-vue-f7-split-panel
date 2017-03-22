@@ -7,21 +7,21 @@
         <f7-list-item
           link="/home"
           title="Home"
-          link-view="#view-main"
+          link-view="#main-view"
           link-reload
           link-close-panel
         />
         <f7-list-item
           link="/about"
           title="About"
-          link-view="#view-main"
+          link-view="#main-view"
           link-reload
           link-close-panel
         />
         <f7-list-item
           link="/services/"
           title="Services"
-          link-view="#view-main"
+          link-view="#main-view"
           link-reload
           link-close-panel
         />
