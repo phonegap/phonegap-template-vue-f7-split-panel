@@ -1,5 +1,5 @@
 <template>
-  <f7-page>
+  <f7-page name="about">
     <f7-navbar sliding>
       <f7-nav-left>
         <f7-link icon="icon-bars" open-panel="left"></f7-link>
@@ -16,6 +16,9 @@
       soluta totam maxime autem minima accusamus eos suscipit dignissimos
       corporis modi voluptatum fugiat!
     </f7-block>
+    <f7-list>
+      <f7-list-item link="/about/another/" title="Another Page"></f7-list-item>
+    </f7-list>
   </f7-page>
 </template>
 

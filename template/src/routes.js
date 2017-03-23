@@ -1,6 +1,7 @@
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
+import Another from './components/pages/Another';
 
 export default [
   {
@@ -14,5 +15,9 @@ export default [
   {
     path: '/services/',
     component: Services
+  },
+  {
+    path: '/about/another/',
+    component: Another
   }
 ];

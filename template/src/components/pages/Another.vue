@@ -1,11 +1,8 @@
 <template>
-  <f7-page name="services">
-    <f7-navbar sliding>
-      <f7-nav-left>
-        <f7-link icon="icon-bars" open-panel="left"></f7-link>
-      </f7-nav-left>
+  <f7-page name="another">
+    <f7-navbar back-link="Back" sliding>
       <f7-nav-center>
-        Services
+        Another
       </f7-nav-center>
     </f7-navbar>
     <!-- Scrollable page content-->
@@ -21,10 +18,10 @@
 
 <script>
   export default {
-    name: 'Services',
+    name: 'Another',
     data () {
       return {
-        title: 'Services Page'
+        title: 'Another Page'
       };
     }
   };

@@ -1,5 +1,5 @@
 <template>
-  <f7-page name="index-1">
+  <f7-page name="home">
     <f7-navbar sliding>
       <f7-nav-left>
         <f7-link icon="icon-bars" open-panel="left"></f7-link>
