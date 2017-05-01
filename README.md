@@ -22,7 +22,7 @@ cordova create MyAppName --template=phonegap-template-vue-f7-split-panel
 or
 
 ```
-phonegap create MyAppName --template vue-f7-split-panel
+phonegap create MyAppName --template phonegap-template-vue-f7-split-panel
 ```
 
 then
