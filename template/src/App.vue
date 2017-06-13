@@ -11,19 +11,11 @@
     <!-- Views-->
     <f7-views>
       <!-- Right view, it is main view-->
+      <!-- Defaults to "/" route -->
       <f7-view url="/" :init="true" id="main-view" :dynamic-navbar="true" navbar-through main>
-        <f7-navbar v-if="isiOS">
-          <f7-nav-left>
-            <f7-link icon="icon-bars" open-panel="left"></f7-link>
-          </f7-nav-left>
-          <f7-nav-center>
-            Home
-          </f7-nav-center>
-        </f7-navbar>
         <!-- Pages-->
         <f7-pages>
           <!-- Page, data-page contains page name-->
-          <home-page />
         </f7-pages>
       </f7-view>
     </f7-views>
@@ -32,13 +24,11 @@
 
 <script>
   import LeftPanel from './components/LeftPanel';
-  import Home from './components/pages/Home';
 
   export default {
     name: 'App',
     components: {
-      'left-panel-view': LeftPanel,
-      'home-page': Home
+      'left-panel-view': LeftPanel
     },
     computed: {
       isiOS () {

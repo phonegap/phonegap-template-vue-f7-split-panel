@@ -5,7 +5,7 @@ import Another from './components/pages/Another';
 
 export default [
   {
-    path: '/home/',
+    path: '/',
     component: Home
   },
   {
