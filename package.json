@@ -14,5 +14,9 @@
   },
   "homepage": "https://github.com/phonegap/phonegap-template-vue-f7-split-panel#readme",
   "author": "PhoneGap Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
