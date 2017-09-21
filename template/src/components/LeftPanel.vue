@@ -5,7 +5,7 @@
       <f7-block-title>Links</f7-block-title>
       <f7-list>
         <f7-list-item
-          link="/home"
+          link="/"
           title="Home"
           link-view="#main-view"
           link-reload
