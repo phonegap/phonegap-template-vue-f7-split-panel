@@ -94,7 +94,4 @@
     <preference name="phonegap-version" value="cli-6.1.0" />
     <engine name="android" spec="~5.1.1" />
     <engine name="ios" spec="^4.5.0" />
-    <plugin name="cordova-plugin-splashscreen" spec="~3.1.0" />
-    <plugin name="cordova-plugin-statusbar" spec="~2.2.1" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
 </widget>
