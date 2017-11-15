@@ -1,7 +1,8 @@
 <template>
   <f7-panel left :reveal="isiOS" :cover="isMaterial">
     <f7-navbar title="Menu"></f7-navbar>
-    <f7-page>
+    <!-- force page background color to white if on iOS -->
+    <f7-page :style="pageStyle">
       <f7-block-title>Links</f7-block-title>
       <f7-list>
         <f7-list-item
@@ -38,6 +39,11 @@
         isMaterial: window.isMaterial,
         isiOS: window.isiOS
       };
+    },
+    computed: {
+      pageStyle () {
+        return this.isiOS ? 'background-color: white;' : '';
+      }
     }
   };
 </script>
