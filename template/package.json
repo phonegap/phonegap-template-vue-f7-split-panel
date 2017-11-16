@@ -107,11 +107,6 @@
     "platforms": [
       "android",
       "ios"
-    ],
-    "plugins": {
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-whitelist": {}
-    }
+    ]
   }
 }
