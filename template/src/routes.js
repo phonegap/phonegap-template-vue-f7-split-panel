@@ -1,7 +1,8 @@
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Services from './components/pages/Services';
-import Another from './components/pages/Another';
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+import Another from './pages/Another';
+import NotFoundPage from './pages/not-found.vue';
 
 export default [
   {
@@ -19,5 +20,9 @@ export default [
   {
     path: '/about/another/',
     component: Another
+  },
+  {
+    path: '(.*)',
+    component: NotFoundPage
   }
 ];
