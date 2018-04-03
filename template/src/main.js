@@ -33,6 +33,10 @@ const baseApp = new Vue({
     id: 'io.framework7.testapp', // App bundle ID
     name: 'Framework7', // App name
     theme: 'auto', // Automatic theme detection
+    pushStateNoAnimation: true,
+    panel: {
+      leftBreakpoint: 960
+    },
     // App routes
     routes: Routes
   },
