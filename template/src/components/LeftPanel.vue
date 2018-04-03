@@ -1,5 +1,5 @@
 <template>
-  <f7-panel left :reveal="isiOS" :cover="isMaterial">
+  <f7-panel left :reveal="isiOS" :effect="panelEffect">
     <f7-navbar title="Menu"></f7-navbar>
     <!-- force page background color to white if on iOS -->
     <f7-page :style="pageStyle">
@@ -9,22 +9,22 @@
           link="/"
           title="Home"
           link-view="#main-view"
-          link-reload
-          link-close-panel
+          panel-close
+          reload-all
         />
         <f7-list-item
-          link="/about"
+          link="/about/"
           title="About"
           link-view="#main-view"
-          link-reload
-          link-close-panel
+          panel-close
+          reload-all
         />
         <f7-list-item
           link="/services/"
           title="Services"
           link-view="#main-view"
-          link-reload
-          link-close-panel
+          panel-close
+          reload-all
         />
       </f7-list>
     </f7-page>
@@ -32,30 +32,33 @@
 </template>
 
 <script>
-  export default {
-    name: 'LeftPanel',
-    data () {
-      return {
-        isMaterial: window.isMaterial,
-        isiOS: window.isiOS
-      };
+export default {
+  name: 'LeftPanel',
+  data() {
+    return {
+      isMaterial: window.isMaterial,
+      isiOS: window.isiOS
+    };
+  },
+  computed: {
+    pageStyle() {
+      return this.isiOS ? 'background-color: white;' : '';
     },
-    computed: {
-      pageStyle () {
-        return this.isiOS ? 'background-color: white;' : '';
-      }
+    panelEffect() {
+      return this.isiOS ? 'reveal' : 'cover';
     }
-  };
+  }
+};
 </script>
 
 <style scoped>
-  .panel-left .page {
-    margin-top: 44px;
-    padding-bottom: 44px;
+.panel-left .page {
+  margin-top: 44px;
+  padding-bottom: 44px;
+}
+@media (min-width: 960px) {
+  .panel.panel-left {
+    border-right: 1px solid #b2b2b2;
   }
-  @media (min-width: 960px) {
-    .panel.panel-left {
-      border-right: 1px solid #b2b2b2;
-    }
-  }
+}
 </style>
