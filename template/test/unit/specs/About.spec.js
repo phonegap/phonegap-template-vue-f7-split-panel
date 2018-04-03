@@ -5,7 +5,7 @@ import Framework7 from 'framework7/dist/framework7.esm.bundle.js';
 // Import F7 Vue Plugin
 import Framework7Vue from 'framework7-vue/dist/framework7-vue.esm.bundle.js';
 
-import About from '@/pages/about';
+import About from '@/pages/About';
 
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue, Framework7);

@@ -19,7 +19,7 @@ module.exports = {
     browser
       .url(devServer)
       .waitForElementVisible('.navbar-inner .title', 5000)
-      .assert.containsText('.navbar-inner .title', 'Home');
+      .assert.containsText('.navbar-inner .title', 'Menu');
   },
   'content block title': browser => {
     const devServer = browser.globals.devServerURL;
@@ -27,7 +27,7 @@ module.exports = {
     browser
       .url(devServer)
       .waitForElementVisible('.page-content .block-title', 5000)
-      .assert.containsText('.page-content .block-title', 'Hello World')
+      .assert.containsText('.page-content .block-title', 'Links')
       .end();
   },
   'content block': browser => {

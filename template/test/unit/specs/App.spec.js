@@ -10,7 +10,7 @@ import Framework7Vue from 'framework7-vue/dist/framework7-vue.esm.bundle.js';
 // Import F7 Styles
 import Framework7Styles from 'framework7/dist/css/framework7.css';
 
-import App from '@/app';
+import App from '@/App';
 
 let vm;
 
