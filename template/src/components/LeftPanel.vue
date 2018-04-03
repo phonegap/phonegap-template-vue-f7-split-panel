@@ -10,18 +10,21 @@
           title="Home"
           link-view="#main-view"
           panel-close
+          reload-all
         />
         <f7-list-item
           link="/about/"
           title="About"
           link-view="#main-view"
           panel-close
+          reload-all
         />
         <f7-list-item
           link="/services/"
           title="Services"
           link-view="#main-view"
           panel-close
+          reload-all
         />
       </f7-list>
     </f7-page>
