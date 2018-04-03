@@ -1,5 +1,5 @@
 <template>
-  <f7-panel left :reveal="isiOS" :cover="isMaterial">
+  <f7-panel left :reveal="isiOS" :effect="panelEffect">
     <f7-navbar title="Menu"></f7-navbar>
     <!-- force page background color to white if on iOS -->
     <f7-page :style="pageStyle">
@@ -43,6 +43,9 @@ export default {
   computed: {
     pageStyle() {
       return this.isiOS ? 'background-color: white;' : '';
+    },
+    panelEffect() {
+      return this.isiOS ? 'reveal' : 'cover';
     }
   }
 };

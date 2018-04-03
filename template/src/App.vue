@@ -59,7 +59,7 @@ export default {
 /* style is not `scoped` so navbars in Pages are modified as well */
 @media (min-width: 960px) {
   /* Let's hide panel-opener button when left panel is visible */
-  .view-main .navbar .open-panel {
+  .view-main .navbar .panel-open {
     display: none;
   }
 }

@@ -21,6 +21,10 @@ import Routes from './routes.js';
 // Import App Component
 import App from './app';
 
+// Set up some useful globals
+window.isMaterial = !Framework7.device.ios;
+window.isiOS = Framework7.device.ios;
+
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue, Framework7);
 
