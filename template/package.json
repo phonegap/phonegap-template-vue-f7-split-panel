@@ -4,22 +4,18 @@
   "description": "A blank PhoneGap template using Vue.js and Framework7",
   "author": "tommy-carlos williams <tommy@devgeeks.org>",
   "scripts": {
-    "dev":
-      "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "unit":
-      "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
-    "unit-watch":
-      "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js",
+    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "unit-watch": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "cordova-build": "npm run build && cordova build",
     "cordova-run": "npm run build && cordova run browser",
     "cordova-run-ios": "npm run build && cordova run ios",
     "cordova-run-android": "npm run build && cordova run android",
-    "copy-fonts":
-      "cpy node_modules/framework7-icons/fonts/*.* src/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} src/fonts",
+    "copy-fonts": "cpy node_modules/framework7-icons/fonts/*.* src/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} src/fonts",
     "postinstall": "npm run copy-fonts"
   },
   "dependencies": {
@@ -108,5 +104,9 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
