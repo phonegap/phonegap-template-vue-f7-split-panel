@@ -1,6 +1,6 @@
 {
   "name": "phonegap-template-vue-f7-split-panel",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description":
     "A Split View PhoneGap template using Vue.js and Framework7 that degrades to a Panel View on smaller devices",
   "main": "index.js",
