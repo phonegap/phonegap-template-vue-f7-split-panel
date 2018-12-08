@@ -9,7 +9,7 @@ Vue.js, Framework7, and Cordova / PhoneGap Template with Babel, Webpack and Hot 
 
 ### Prerequisites
 
-To use this template, you'll need Node.js v5 or newer.
+To use this template, you'll need Node.js v6 or newer.
 
 ### Installation
 
@@ -70,7 +70,7 @@ npm run cordova-run-android
 To build the app without the development hot module reloading server:
 
 ```
-npm run build
+npm run build-prod
 ```
 
 After that, the normal Cordova / PhoneGap commands can be used such as `phonegap serve`, or `cordova run ios`, etc.
